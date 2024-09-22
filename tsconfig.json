@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "noEmit": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": false,
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ],
+      "#/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "/**/*.js",
+    "/**/*.ts"
+  ]
+}
